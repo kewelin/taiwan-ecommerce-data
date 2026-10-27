@@ -1,3 +1,7 @@
+**[中文](#中文) | [English](#english)**
+
+## 中文
+
 # Taiwan E-Commerce Data 台灣電商開放數據
 
 由 [ECPRO 電商博士](https://ecpro.tw) 實測台灣 13 萬+ 網站產出的彙總統計，開放引用。
@@ -20,3 +24,28 @@
 ## 授權
 
 CC BY 4.0 — 引用請標示來源「ECPRO 電商博士 https://ecpro.tw」。
+
+## English
+
+# Taiwan E-Commerce Data 台灣電商開放數據
+
+Aggregated statistics produced by [ECPRO 電商博士](https://ecpro.tw) through live measurement of 130,000+ Taiwan sites. Open for citation.
+
+## Datasets
+
+| File | Content |
+|---|---|
+| `platform-share.csv` | Taiwan store-platform market share (number of sites per platform, detected by live measurement) |
+| `industry-distribution.csv` | Industry distribution of Taiwan e-commerce sites |
+
+## Methodology
+
+Taiwan domains are scanned with the ECPRO detection engine (public-page technology fingerprints). This version of the dataset is aggregated from a sample of 26,979 scanned .tw domains and 16,331 successful detections; the full ECPRO database covers 130,000+ sites, and the figures on the interactive version are authoritative. It contains no private data of any individual site. See [方法論說明](https://ecpro.tw/about).
+
+- Update frequency: irregular (following each full re-scan)
+- Live interactive version: [台灣電商技術大調查](https://ecpro.tw/data), [技術採用趨勢](https://ecpro.tw/trends)
+- Programmatic access: [公開 API](https://ecpro.tw/api-docs), [MCP server](https://github.com/kewelin/ecpro-mcp)
+
+## License
+
+CC BY 4.0 — when citing, please attribute the source as "ECPRO 電商博士 https://ecpro.tw".
